@@ -1,7 +1,8 @@
+import BtnAjout from '@material-ui/core/Fab'
+import './BtnAjoutRessource.scss'
 export default function BtnAjoutRessource() {
   return (
-    <button className="BtnAjoutRessource">
-      Ajouter
-    </button>
+    <BtnAjout className="BtnAjoutRessource">+</BtnAjout>
+
   );
 }

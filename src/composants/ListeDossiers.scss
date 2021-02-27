@@ -1,0 +1,11 @@
+.ListeDossiers {
+    display: flex;
+    justify-content: center;
+    margin:5em;
+    padding:0;
+    list-style-type: none;
+  
+    li:not(:first-of-type){
+      margin-left:5em;
+    }
+}
